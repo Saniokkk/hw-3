@@ -170,6 +170,7 @@ img {
 }
 
 /* -----HERO----- */
+
 .hero {
     background: var(--secondary-background-color);
     padding: 200px 0;
@@ -209,9 +210,6 @@ img {
 }
 
 /* -----ADVANTAGES----- */
-.advantages {
-    padding-bottom: 0;
-}
 
 .advantages-list {
     display: flex;
@@ -236,7 +234,12 @@ img {
 .advantages-item:not(:last-child) {
     margin-right: 30px;
 }
+
 /* -----WORK----- */
+.work{
+    padding-top: 0;
+}
+
 .work-title {
     font-size: 36px;
     line-height: 1.16;
@@ -253,6 +256,7 @@ img {
 }
 
 /* -----TEAM----- */
+
 .team {
     background-color: var(--team-background-color);
 }
