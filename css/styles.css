@@ -134,6 +134,7 @@ img {
 }
 
 .nav-link {
+    display: block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -160,6 +161,7 @@ img {
 }
 
 .header-contacts-link {
+    display: block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -189,11 +191,10 @@ img {
 }
 
 .hero-btn {
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    display: block;
     letter-spacing: 0.06em;
     background: var(--accent-color);
     color: var(--secondary-color);
